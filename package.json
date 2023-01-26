@@ -1,0 +1,23 @@
+{
+  "name": "202301-w2ch4-thais-jacob-enrique-jimenez",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thaixjacob/202301-w2ch4-enrique-thais.git"
+  },
+  "author": "Enrique y Thais",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thaixjacob/202301-w2ch4-enrique-thais/issues"
+  },
+  "homepage": "https://github.com/thaixjacob/202301-w2ch4-enrique-thais#readme",
+  "devDependencies": {
+    "husky": "^8.0.0"
+  }
+}
