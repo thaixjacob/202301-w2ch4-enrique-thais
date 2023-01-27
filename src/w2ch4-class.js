@@ -15,18 +15,33 @@ class CodersArray {
     return counter;
   }
 
-  some(value){
-    let some 
-    for (let i in this.myArray){
-        if (i === value){
-            some = true
-        }
-        else some = false
-    }
+  pusH(value){
+    let length = this.lengtH();
+    this.myArray[length]=value;
+    return this.myArray;
 
-    return some
   }
 
-}
+  some(value){
+    for (let i of Object.values(this.myArray)){
+        if (i === value){
+            return true
+        }
+    }
+
+    return false
+  }
+
+find(value){
+    let findIt = 0;
+    for (let i of Object.values(this.myArray)) {
+      if (value < i)
+      return i;}}
+    }
+
+
+
+
 
 const numbers = new CodersArray(2, 6, 8);
+
